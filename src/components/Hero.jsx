@@ -32,7 +32,7 @@ function Hero() {
 
 
   return (
-    <section className='hero' style={{backgroundImage: `url(src/img/${fondos[fondo]})`}}>
+    <section className='hero' style={{backgroundImage: `url(public/img/${fondos[fondo]})`}}>
         <h1>{frase}</h1>
     </section>
   )
